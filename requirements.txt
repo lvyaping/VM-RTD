@@ -1,0 +1,5 @@
+# Reuse the working Femas environment. Do not reinstall torch/CUDA extensions blindly.
+# Python >=3.8; existing compatible torch + mamba-ssm + causal-conv1d required.
+numpy>=1.20
+Pillow>=8
+einops>=0.3

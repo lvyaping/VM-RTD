@@ -1,0 +1,22 @@
+{
+  "data_root": "",
+  "manifest": "data/isic18.csv",
+  "student_pretrained": "weights/vmamba_tiny_e292.pth",
+  "teacher_checkpoint": "../swin/work_dirs/teachers/isic18/exp_v1_seed42/best_teacher.pth",
+  "seed": 42,
+  "size": 256,
+  "epochs": 300,
+  "batch_size": 16,
+  "workers": 4,
+  "lr": 0.0001,
+  "min_lr": 1e-06,
+  "weight_decay": 0.01,
+  "threshold": 0.5,
+  "augmentation": true,
+  "rotation_degrees": 15.0,
+  "mode": "branch",
+  "check_duplicates": false,
+  "adapter": "project",
+  "stage": 2,
+  "beta": 0.1
+}
